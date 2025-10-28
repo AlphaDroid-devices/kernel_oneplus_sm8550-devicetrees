@@ -196,7 +196,7 @@
 		compatible = "synaptics-s3910";
 		reg = <0x0>;
 		chip-name = "S3910";
-		status = "disabled";
+		status = "okay";
 		spi-max-frequency = <19000000>;
 
 		/* Interrupt && Irq-gpio */
@@ -331,7 +331,7 @@
 		compatible = "synaptics,tcm-spi-hbp";
 		reg = <0x0>;
 		chip-name = "S3910";
-		status = "okay";
+		status = "disabled";
 		spi-max-frequency = <19000000>;
 		qcom,rt;
 
